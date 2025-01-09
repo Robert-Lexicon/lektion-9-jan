@@ -1,4 +1,5 @@
 //for loop
+//let används då värdet ändras varje gång
 for (let i = 0; i <= 4; i++) {
   console.log(i);
 }
@@ -18,6 +19,7 @@ while (j <= 4) {
 //loop
 const nrs = [1, 2, 4, 8]; //array
 
+//const används då värdet inte ändras
 for (const i in nrs) {
   console.log(i);
 }
